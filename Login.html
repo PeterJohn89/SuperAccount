@@ -34,19 +34,21 @@
             <div class="form">
                 <h1>Login</h1>
 
-                <form action="">
+                <form action="" id="login">
                     <div class="large-6 cell">
                         <label for="Username">Username</label>
-                        <input type="text" id="Username">
+                        <input type="text" id="Username" name="Username" value="">
                     </div>
 
                     <div class="large-6 cell">
                         <label for="Password">Password</label>
-                        <input type="text" id="Password">
+                        <input type="text" id="Password" name="Password" value="">
                     </div>
+
+                    <p class="error-message" id="error-message"></p>
                     <div class="flex-container">
                         <div class="large-6 cell align-center">
-                            <button type="submit" class="button">Login</button>
+                            <div class="button" id="checkLogin">Login</div>
                             <a href="Register.html">Register</a>
                         </div>
                     </div>
